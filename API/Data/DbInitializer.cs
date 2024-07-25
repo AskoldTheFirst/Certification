@@ -8,6 +8,7 @@ namespace API.Data
 {
     public static class DbInitializer
     {
+        // Add any initials here.
         public static void Initialize(CertificationContext ctx)
         {
             if (ctx.Questions.Any()) return;
